@@ -1,0 +1,48 @@
+/*
+66.66 x 113.75
+x: 0, 80
+y: 0, 120
+background-size: auto|length|cover|contain|initial|inherit;
+*/
+
+.osol-paginator-row{
+	width:100%;
+	overflow: auto;/*expand based on contents*/
+	border: 2px solid #F00;
+	/*adjust right column to available width & height*/
+	display: flex; 
+	flex-direction: row;
+}
+
+.osol-paginator-left-column{	
+ font-size:24px;
+ font-weight:bold;
+ text-align:center;
+ line-height:95px;/*to vertically center text inside */
+
+}
+/* If the text has multiple lines, add the following: */
+.center p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.osol-paginator-right-column{	
+	border: 2px solid #000;
+	/*overflow: auto;expand to available width*/
+	flex-grow: 1;/*adjust right column to available width & height*/
+	background-color:cyan;
+}
+.osol-paginator-thumbnail-container{
+	width:80px;
+	height:105px;
+	padding:5px;
+	border: 2px solid #000;
+	float:left;
+}
+.osol-paginator-thumbnail-bg {
+  background-image: url(Modern-Technology-Icons.webp);
+  background-repeat: no-repeat;
+  background-position: -80px -120px;
+  background-size: initial;
+}
