@@ -32,8 +32,6 @@ Serves as parent to any class that is to be instantiated as singleton
 Eases database handling in PHP
 
 
-
-
 ## Prerequisites
 1. **\OSOLUtils\Helpers\OSOLMySQL class must be loaded**
 2. **If not autoloaded, the PHPPaginator class must be included**
