@@ -38,8 +38,9 @@ Eases database handling in PHP
 Autoloading is enabled with *spl_autoload_register* function in index.php
 
 ## Prerequisites
-1. **\OSOLUtils\Helpers\EasyMySQL class must be loaded**
-2. **If not autoloaded, the PHPPaginator class must be included**
+1. PHP version 7+
+2. **\OSOLUtils\Helpers\EasyMySQL class must be loaded**
+3. **If not autoloaded, the PHPPaginator class must be included**
 
 
 ## Installation
