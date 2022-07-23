@@ -1,26 +1,29 @@
 <?php
 /**
-* \class OSOLUtils::Helpers::OSOLMySQL
+* \class OSOLUtils::Helpers::EasyMySQL
 * \brief Encapsulates all DB functions
-*\details This comes in OSOLUtils\Helpers\OSOLMySQL\n.
-Class that could simplify mysql database operations.Used in attached \OSOLHelpers\OSOLPageNav class
+*\details This comes in OSOLUtils\Helpers\EasyMySQL\n.
+Class that could simplify mysql database operations.Used in attached \OSOLHelpers\PHPPaginator class
 *
 *
 https://www.w3schools.com/php/php_mysql_prepared_statements.asp
 
 \par Initialisation:
 if '$EasyMySQLConfig' is set globally
+
 ```
 \OSOLUtils\Helpers\EasyMySQL::getInstance(); 
 ```
 Otherwise
+
 ```
 	$dbDetails['DB_USER'] = username;
 	$dbDetails['DB_PASS'] = password;
 	$dbDetails['DB_SERVER'] = server;
 	$dbDetails['DB_NAME'] = database;
 	$db = \OSOLUtils\Helpers\EasyMySQL::getInstance($dbDetails);
-```	
+```
+
 \par Sample Usages after initialisation	
 ```
 	$db->connectdb();
@@ -36,8 +39,6 @@ Otherwise
 ```
 
 \warning Prepared statements can also be used.
-	
-
 *
 * 
 * @author Sreekanth Dayanand <osolgithub@outsource-online.net>
