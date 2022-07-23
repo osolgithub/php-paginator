@@ -1,6 +1,6 @@
 # README
 
-[Doxygen Documentation](https://osolgithub.github.io/php-paginator/)
+
 ### Author
 
 Sreekanth Dayanand <br />
@@ -19,7 +19,7 @@ This simple project demonstrates 4 things
 1. OSOLUtils::Helpers::PHPPaginator class.
 2. OSOLUtils::Helpers::OSOLBaseParentClass class.
 3. OSOLUtils::Helpers::EasyMySQL class
-4. Doxygen documentation for PHP projects.
+4. [Doxygen Documentation](https://osolgithub.github.io/php-paginator/) for PHP projects.
 ### PHPPaginator class
 
 Makes it easy to generate pagination links for database based PHP pages
