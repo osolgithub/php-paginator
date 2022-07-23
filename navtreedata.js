@@ -26,21 +26,22 @@ var NAVTREE =
 [
   [ "OSOL Paginator", "index.html", [
     [ "README", "md_src_readme_copy4_doxygen.html", [
+      [ "Author", "md_src_readme_copy4_doxygen.html#autotoc_md1", null ],
+      [ "Contributors", "md_src_readme_copy4_doxygen.html#autotoc_md2", null ],
       [ "Synopsis", "md_src_readme_copy4_doxygen.html#autotoc_md3", null ],
       [ "Description", "md_src_readme_copy4_doxygen.html#autotoc_md4", [
-        [ "Author", "md_src_readme_copy4_doxygen.html#autotoc_md1", null ],
-        [ "Contributors", "md_src_readme_copy4_doxygen.html#autotoc_md2", null ],
         [ "PHPPaginator class", "md_src_readme_copy4_doxygen.html#autotoc_md5", null ],
         [ "OSOLBaseParentClass class", "md_src_readme_copy4_doxygen.html#autotoc_md6", null ],
-        [ "EasyMySQL Class", "md_src_readme_copy4_doxygen.html#autotoc_md7", null ]
+        [ "EasyMySQL Class", "md_src_readme_copy4_doxygen.html#autotoc_md7", null ],
+        [ "Autoloading in PHP", "md_src_readme_copy4_doxygen.html#autotoc_md8", null ]
       ] ],
-      [ "Prerequisites", "md_src_readme_copy4_doxygen.html#autotoc_md8", null ],
-      [ "Installation", "md_src_readme_copy4_doxygen.html#autotoc_md9", null ],
-      [ "Extending / Installing Addons", "md_src_readme_copy4_doxygen.html#autotoc_md10", null ],
-      [ "Contributing", "md_src_readme_copy4_doxygen.html#autotoc_md11", null ],
-      [ "License / Copyright Info", "md_src_readme_copy4_doxygen.html#autotoc_md12", null ],
-      [ "Citation", "md_src_readme_copy4_doxygen.html#autotoc_md13", null ],
-      [ "Contact", "md_src_readme_copy4_doxygen.html#autotoc_md14", null ]
+      [ "Prerequisites", "md_src_readme_copy4_doxygen.html#autotoc_md9", null ],
+      [ "Installation", "md_src_readme_copy4_doxygen.html#autotoc_md10", null ],
+      [ "Extending / Installing Addons", "md_src_readme_copy4_doxygen.html#autotoc_md11", null ],
+      [ "Contributing", "md_src_readme_copy4_doxygen.html#autotoc_md12", null ],
+      [ "License / Copyright Info", "md_src_readme_copy4_doxygen.html#autotoc_md13", null ],
+      [ "Citation", "md_src_readme_copy4_doxygen.html#autotoc_md14", null ],
+      [ "Contact", "md_src_readme_copy4_doxygen.html#autotoc_md15", null ]
     ] ],
     [ "Bug List", "bug.html", null ],
     [ "Namespaces", "namespaces.html", [
