@@ -38,7 +38,8 @@ Otherwise
 	$db->execute_sql($SQL);
 ```
 
-\warning Prepared statements can also be used.
+\par PS:
+Prepared statements can also be used.
 *
 * 
 * @author Sreekanth Dayanand <osolgithub@outsource-online.net>
