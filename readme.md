@@ -2,7 +2,8 @@
 
 ### Author
 
-Sreekanth Dayanand (Outsource Online Internet Solutions)[http://www.outsource-online.net/]
+Sreekanth Dayanand \n
+[Outsource Online Internet Solutions](http://www.outsource-online.net/)
 
 ### Contributors
 
