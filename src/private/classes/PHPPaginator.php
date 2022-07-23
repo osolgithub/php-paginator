@@ -32,7 +32,7 @@ class PHPPaginator extends OSOLBaseParentClass
  protected function __construct()//,$options=array())
  {
    $arguments = func_get_args();
-   $this->database = \OSOLUtils\Helpers\OSOLMySQL::getInstance(...$arguments/* $dbDetails */);
+   $this->database = \OSOLUtils\Helpers\EasyMySQL::getInstance(...$arguments/* $dbDetails */);
    $this->activateInst($this->lastReferedInstName);
    
  }//private function __construct()

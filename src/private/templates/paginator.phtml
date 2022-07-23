@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Material Design Example</title>
+  <title>PHP Paginator Demo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Compiled and minified CSS -->
@@ -39,19 +39,13 @@
 	{
 		$itemNo = $recordOfPage['id'];
 		$i =  $itemNo - 1;
+		$modulus = floor($i/8);// gives the row no
+		$remainder = $i%8;// gives column no
+		$rowNum = $modulus  * -118;
+		$colNum = $remainder * -75;
+		
 		$bgX =  $colNum ;
 		$bgY =  $rowNum ;
-		//$itemNo++;
-		
-		if($i%8 == 7)
-		{
-			$rowNum -= 118;
-			$colNum = 0;
-		}
-		else
-		{
-			$colNum -= 75;
-		}//if($i%8 == 7)
 		
 	?>
 	<div class="osol-paginator-row">
@@ -59,7 +53,7 @@
 		<div class="osol-paginator-thumbnail-bg osol-paginator-thumbnail-container " style="background-position: <?php echo $bgX;?>px <?php echo $bgY;?>px;"></div>
 		<div class="osol-paginator-right-column center">
 			<p>
-				<?php echo $i;?>,<br /><?php echo $i%8;?>,<?php echo $bgX;?>, <?php echo $bgY;?><br />
+				i = <?php echo $i;?>,<br />i%8 = <?php echo $i%8;?>,bgX = <?php echo $bgX;?>, bgY = <?php echo $bgY;?><br />
 				<?php echo $recordOfPage['sample_text'];?>
 			</p>
 		</div>

@@ -1,4 +1,4 @@
-# PHP Paginator
+# README
 
 ### Author
 
@@ -10,15 +10,28 @@ This is a solo project.
 
 ## Synopsis
 
-This simple project demonstrates 2 things
-1. PHPPaginator class.
-2. Doxygen documentation for PHP projects.
+Demonstrates use of PHPPaginator, OSOLBaseParentClass, EasyMySQL classes &amp; Doxygen documentation for PHP
 
 ## Description
-
+This simple project demonstrates 4 things
+1. OSOLUtils::Helpers::PHPPaginator class.
+2. OSOLUtils::Helpers::OSOLBaseParentClass class.
+3. OSOLUtils::Helpers::EasyMySQL class
+4. Doxygen documentation for PHP projects.
 ### PHPPaginator class
 
 Makes it easy to generate pagination links for database based PHP pages
+
+### OSOLBaseParentClass class
+
+Serves as parent to any class that is to be instantiated as singleton
+
+### EasyMySQL Class
+
+Eases database handling in PHP
+
+
+
 
 ## Prerequisites
 1. **\OSOLUtils\Helpers\OSOLMySQL class must be loaded**

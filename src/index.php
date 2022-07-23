@@ -125,7 +125,7 @@ catch (Exception $e) {
 /**
 *  @brief Database configuration values
 *  @details
-    $DBConfig will be like
+    $EasyMySQLConfig will be like
 	 <pre>
 	 array(
 							'DB_USER' => "",
@@ -138,7 +138,7 @@ catch (Exception $e) {
 							);
 	 </pre>
 */
-$dbConfig = array(
+$EasyMySQLConfig = array(
 							'DB_USER' => "root",
 							'DB_PASS' => "",
 							'DB_SERVER' => "localhost",

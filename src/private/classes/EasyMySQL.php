@@ -7,13 +7,22 @@ Class that could simplify mysql database operations.Used in attached \OSOLHelper
 *
 *
 https://www.w3schools.com/php/php_mysql_prepared_statements.asp
-Sample
 
+\par Initialisation:
+if '$EasyMySQLConfig' is set globally
+```
+\OSOLUtils\Helpers\EasyMySQL::getInstance(); 
+```
+Otherwise
+```
 	$dbDetails['DB_USER'] = username;
 	$dbDetails['DB_PASS'] = password;
 	$dbDetails['DB_SERVER'] = server;
 	$dbDetails['DB_NAME'] = database;
-	$db = new \OSOL\PHP\helpers\MySQL($dbDetails);	
+	$db = \OSOLUtils\Helpers\EasyMySQL::getInstance($dbDetails);
+```	
+\par Sample Usages after initialisation	
+```
 	$db->connectdb();
 	//select query usage
 	$sql = "SELECT * FROM updates  ";
@@ -24,6 +33,10 @@ Sample
 	//other querie usage
 	$SQL="delete fromcurrent_users where  DATE_ADD(last_visited,INTERVAL 1 year)<NOW()";
 	$db->execute_sql($SQL);
+```
+
+\warning Prepared statements can also be used.
+	
 
 *
 * 
@@ -32,7 +45,7 @@ Sample
 * @copyright GNU General Public License (GPL)
 **/
 namespace OSOLUtils\Helpers;
-class OSOLMySQL extends OSOLBaseParentClass{
+class EasyMySQL extends OSOLBaseParentClass{
 	private $dbConfig;
 	private $user;
 	private $pass;
@@ -82,8 +95,8 @@ class OSOLMySQL extends OSOLBaseParentClass{
 	private function setDBConfig()//MySQL(
 	//--------------------------------------------------------
 	{
-		global $dbConfig;
-		$this->dbConfig = $dbConfig;
+		global $EasyMySQLConfig;
+		$this->dbConfig = $EasyMySQLConfig;
 	}
 	/**
 	 * \fn array OSOLMySQL::getDBConfig()
