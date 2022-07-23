@@ -1,5 +1,6 @@
 # README
 
+[Doxygen Documentation](https://osolgithub.github.io/php-paginator/)
 ### Author
 
 Sreekanth Dayanand <br />
@@ -30,8 +31,6 @@ Serves as parent to any class that is to be instantiated as singleton
 ### EasyMySQL Class
 
 Eases database handling in PHP
-
-
 
 
 ## Prerequisites

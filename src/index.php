@@ -14,7 +14,7 @@ This is a simple class that helps creating pagination links while showing master
 @details This details is added with `details` tag and will be displayed below all the other tags
 
 @details This details is added with additional `details` tag, to demonstrate use of paragraphs
-   
+@see  Source at https://github.com/osolgithub/php-paginator   
 \par Paragraph title with `par` tag
 first line adding line break 1\n
 second line adding line break\n

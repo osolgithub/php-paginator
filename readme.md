@@ -1,5 +1,6 @@
 # README
 
+[Doxygen Documentation](https://osolgithub.github.io/php-paginator/)
 ### Author
 
 Sreekanth Dayanand <br />
